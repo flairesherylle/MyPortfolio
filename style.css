@@ -25,13 +25,22 @@ header{
     margin-left: 50px;
 }
 
+.myportfolio{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-family: "EB Garamond", serif;
+    font-size: 30px;
+}
+
 .navmenu{
     margin-left: auto;
     margin-right: 50px;
     display: flex;
     gap: 30px;
     align-items: center;
-    text-decoration: none;
     text-decoration: none;
 }
 
