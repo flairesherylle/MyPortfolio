@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Merienda:wght@300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+    text-decoration: none;    
+    list-style: none;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    background-color: #273F4F;
+    color: white;
+    display: flex;
+    padding: 15px 75px;
+    
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.navmenu{
+    margin-left: auto;
+    margin-right: 50px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+.navmenu a{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navmenu a:hover{
+    transform: translateY(5px);
+    border-bottom: 2px solid white;
+}
+
+.logo img{
+    height: 68px;
+    width: auto;
+    margin-left: 20px;
+}
+
+section{
+    color: #0F0E0E;
+    margin: 180px 250px;
+    display: grid;
+    grid-template-columns: repeat(2, 1100px);
+}
+
+section h2{
+    font-size: 50px;
+}
+
+section h1{
+    font-size: 60px;
+}
+
+section p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.button {
+    display: flex;       /* makes the children (the links) line up in a row */
+    gap: 20px;           /* space between the buttons */
+    width: fit-content;
+    border: #0F0E0E;
+    border-color: #0F0E0E;
+    border-radius: 20px;
+    background-color: transparent;
+    margin: 20px 20px;
+}
+
+.btn{
+    text-decoration: none;
+    color: #0F0E0E;
+    display: inline-block;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 1px solid #0F0E0E;
+    font-weight: 500;
+    font-size: 15;
+    text-align: center;
+    transition: all 0.5s;
+    gap: 20px;
+}
+
+.btn:hover{
+    background-color: #415E72;
+    color: aliceblue;
+    transform: translateY(5px);
+}
+
+.pic{
+    width: auto;
+    height: 500px;
+    padding: 0;
+}
+
+footer{
+    color: #0F0E0E;
+    text-align: center;
+    margin-bottom: auto;
+}
