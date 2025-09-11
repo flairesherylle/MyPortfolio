@@ -64,5 +64,32 @@ header{
 
 .about{
     transform: translateY(2px);
-    border-bottom: 2px solid white;
+    border-bottom: 4px solid white;
+}
+
+section{
+    display: flex;
+    margin: 200px;
+}
+
+.content h2{
+    font-family: cursive;
+    font-size: 40px;
+}
+
+.content h1{
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.content p{
+    text-indent: 4rem;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+footer{
+    color: #0F0E0E;
+    text-align: center;
+    margin-bottom: auto;
 }
