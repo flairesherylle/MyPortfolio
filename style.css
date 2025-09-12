@@ -62,6 +62,11 @@ header{
     margin-left: 20px;
 }
 
+.home{
+    transform: translateY(2px);
+    border-bottom: 4px solid white;
+}
+
 section{
     color: #0F0E0E;
     margin: 180px 250px;
