@@ -78,10 +78,22 @@ header{
 
 h1{
     font-size: 40px;
+    margin-top: 40px;
+}
+
+h2{
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+li{
+    font-size: 18px;
+    list-style-type: disc;
 }
 
 footer{
     color: #0F0E0E;
     text-align: center;
     margin-bottom: auto;
+    margin-top: 100px;
 }
